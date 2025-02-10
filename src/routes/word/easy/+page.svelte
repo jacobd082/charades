@@ -150,6 +150,7 @@
 		<p>
 			<button
 				on:click={() => {
+					$isTeamATurn = !$isTeamATurn
 					goto("/")
 				}}
 				style="font-size: x-large;text-decoration:none;color:white;background:black;width:300px;border:none;padding:10px;border-radius:15px;"
